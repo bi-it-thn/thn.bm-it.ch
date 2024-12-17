@@ -1,0 +1,137 @@
+/* DIV */
+
+body
+{
+	background-color: white;
+	background-size: fixed;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+.container
+{
+	margin: 1px auto;
+	padding: 20px;
+	background-color: rgba(6,0,0,0.7);
+	margin: 1px auto;
+}
+
+.text1
+ {	
+	color: #0776c8;
+	font-family: Bauhaus 93;
+	font-size: 75px;
+	text-decoration: overline underline;
+	margin: 50px auto;
+ }	
+ 
+ 
+ .logo
+ {
+	box-shadow: 0 0 25px #0776c8;
+	background-color: white;
+	margin-top: -25px;
+ }
+ 
+ .text
+ {
+	color: black;
+ }
+ nav ul
+{
+	list-style-type: none;
+}
+
+nav li
+{
+	float: left  	;
+	width: 19.35%;
+}
+
+nav a
+{
+	background-color: #0776c8;
+	display: block;
+	text-align: center;
+	padding: 6px 0;
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	background-color: white;
+	color: black;
+	transition: .5s;
+}
+
+ .bio
+ {
+	text-align: left;
+	color: navy;
+ }
+ 
+ .footer
+{
+	padding: 3px 30px;
+	background-color: #0776c8;
+	color: white;
+	text-align: right;
+	font-size: 10pt;
+}
+
+.footer a
+{
+	color: #49c0f0;
+	text-decoration: none;
+}
+
+.footer a:hover
+{
+	text-decoration: underline;
+}
+
+.footer a:link
+{
+	color: yellow;
+}
+
+.footer a:visited
+{
+	color: green;
+}
+ 
+.bio 
+{
+	color: white;
+}
+
+ p {
+            margin: 1px 0; /* 1px oben und unten, 0px links und rechts */
+			
+        }
+		
+		/* Flexbox-Container */
+.contentstandort {
+    display: flex;
+    justify-content: space-between; /* Platz zwischen Text und Karte */
+    align-items: flex-start; /* Oben ausrichten */
+    margin-top: 100px; /* Abstand nach oben */
+    padding: 0 39.5px; /* Optional: Seitenabstand */
+}
+
+/* Linker Textbereich */
+.textstandort {
+    flex: 1; /* Nimmt Platz links ein */
+    margin-right: 20px; /* Abstand zur Karte */
+    text-align: left; /* Text linksbündig */
+    color: #0776c8;
+	font-size: 15pt;
+}
+
+/* Rechter Kartenbereich */
+.mapstandort {
+    flex: 1; /* Nimmt Platz rechts ein */
+    max-width: 750px; /* Begrenzung der Kartenbreite */
+}
+
